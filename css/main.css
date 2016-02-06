@@ -1,0 +1,201 @@
+@media (min-width: 768px) {
+  .navbar-fixed-top {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-fixed-top .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-fixed-top.navbar-shrink {
+    padding: 10px 0;
+  }
+  .navbar-fixed-top.navbar-shrink .navbar-brand {
+    font-size: 1.5em;
+  }
+}
+.navbar {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+
+}
+.navbar a:focus {
+  outline: none;
+}
+.navbar .navbar-nav {
+  letter-spacing: 2px;
+}
+.navbar .navbar-nav li a:focus {
+  outline: none;
+}
+.navbar-default,
+.navbar-inverse {
+  border: none;
+  /*background-color: #2C2c50;*/
+}
+header {
+  text-align: center;
+  background: #18bc9c;
+  color: white;
+}
+.aboutbod {
+  text-align: center;
+  background: #fff;
+  color: black;
+}
+.aboutbod .container {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+.projectbod {
+  text-align: center;
+  background: #18bc9c;
+  color: black;
+}
+.contactbod {
+  text-align: center;
+  color: black;
+}
+.projectbod .container {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+.contactbod .container {
+  padding-top: 50px;
+  padding-bottom: 75px;
+}
+header .container {
+  padding-top: 100px;
+  padding-bottom: 75px;
+}
+header img {
+  display: block;
+  margin: 50px auto 20px;
+}
+.beg-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 4em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.beg-text .name2{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+}
+.line-separator{
+	height:5px;
+	background: white;
+	max-width: 250px;
+	text-align: center;
+	margin: 25px auto 30px;
+	position: relative;
+}
+.line-separator2{
+	height:5px;
+	background: black;
+	max-width: 250px;
+	text-align: center;
+	margin: 25px auto 50px;
+	position: relative;
+}
+.line-separator3{
+	height:5px;
+	background: black;
+	max-width: 250px;
+	text-align: center;
+	margin: 25px auto 40px;
+	position: relative;
+}
+.about-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.aboutdesc{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+.project-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: white;
+}
+.project-text .name2{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  color: white;
+  font-size: 2em;
+}
+
+.contact-text .name {
+  display: block;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 3em;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.contact-text .name2{
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+}
+.input-group{
+	width: 100%;
+	padding-top: 10px;
+}
+.input-group-last{
+	width: 100%;
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+.btn-primary{
+	background-color: black;
+	border: black;
+}
+.white{
+	color: white;
+}
+.navbar-inverse {
+  background-color: #222;
+  border-color: #080808;
+}
+.navbar-inverse .navbar-brand {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #9d9d9d;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
